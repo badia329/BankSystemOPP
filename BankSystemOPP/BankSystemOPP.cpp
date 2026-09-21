@@ -7,6 +7,8 @@
 #include "clsScreen.h"
 #include "clsLoginScreen.h"
 #include "Global.h"
+#include "clsLoginRegisterScreen.h"
+
 
 int main()
 
@@ -15,7 +17,7 @@ int main()
 	{
 		clsLoginScreen::ShowLoginScreen();
 	}
-
+	
 	system("pause>0");
 	return 0;
 }

@@ -8,6 +8,7 @@ using namespace std;
 class clsScreen
 {
 protected :
+
 	static void _DrawScreenHeader(string Tilte, string SubTitle = "")
 	{
 		cout << "\t\t\t\t\t______________________________________";
@@ -17,6 +18,8 @@ protected :
 			cout << "\n\t\t\t\t\t " << SubTitle;
 		}
 		cout << "\n\t\t\t\t\t______________________________________\n\n";
+		cout << "\t\t\t\t\tUser: " << CurrentUser.UserName;
+		cout << "\n\t\t\t\t\tDate: " << clsDate::GetSystemDateTimeString() << "\n\n";
 	}
 
 	static bool CheckAccessRights(clsUser::enPermissions Permission)
