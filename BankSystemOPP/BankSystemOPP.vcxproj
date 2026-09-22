@@ -128,6 +128,8 @@
     <ClCompile Include="clsAddNewUserrScreen.cpp" />
     <ClCompile Include="clsBankClient.cpp" />
     <ClCompile Include="clsClientListScreen.cpp" />
+    <ClCompile Include="clsCurrency.cpp" />
+    <ClCompile Include="clsCurrencyScreen.cpp" />
     <ClCompile Include="clsDate.cpp" />
     <ClCompile Include="clsDeleteClientScreen.cpp" />
     <ClCompile Include="clsDeleteUserScreen.cpp" />
@@ -159,6 +161,8 @@
     <ClInclude Include="clsAddNewUserrScreen.h" />
     <ClInclude Include="clsBankClient.h" />
     <ClInclude Include="clsClientListScreen.h" />
+    <ClInclude Include="clsCurrency.h" />
+    <ClInclude Include="clsCurrencyScreen.h" />
     <ClInclude Include="clsDate.h" />
     <ClInclude Include="clsDeleteClientScreen.h" />
     <ClInclude Include="clsDeleteUserScreen.h" />
