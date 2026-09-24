@@ -11,6 +11,8 @@ class clsCurrency
 private:
 
 	enum enMode { EmptyMode = 0, UpdateMode = 1 };
+	enum enCodeOrCountry { eCode = 1, eCountry = 2 };
+
 	enMode _Mode;
 
 	string _Country;
@@ -77,7 +79,7 @@ private:
 		}
 	}
 
-	void _Update()
+	 void _Update()
 	{
 		vector <clsCurrency> _vCurrencys;
 		_vCurrencys = _LoadCurrencysDataFromFile();
@@ -202,5 +204,7 @@ public:
 	{
 		return _LoadCurrencysDataFromFile();
 	}
+
+
 };
 

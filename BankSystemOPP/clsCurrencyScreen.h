@@ -2,9 +2,13 @@
 #include <iomanip>
 #include "clsScreen.h"
 #include "clsInputValidate.h"
+#include "clsCurrenciesListScreen.h"
+#include "clsFindCurrencyScreen.h"
+#include "clsUpdateCurrencyRate.h"
 
 class clsCurrencyScreen : protected clsScreen
 {
+
 private:
 
 	enum enCurrencyMenueOption { eListCurrencies = 1, eFindCurrencies = 2, eUdpateCurrencies = 3, eCurrencyCalculator = 4, eMainMenue = 5};
@@ -21,17 +25,17 @@ public:
 
 	static void _ShowCurrencyListScreen()
 	{
-		// List Currency Screen Will Be Here
+		clsCurrenciesListScreen::ShowCurrenciesListScreen();
 	}
 
 	static void _ShowFindCurrencyScreen()
 	{
-		// Find Currency Screen Will be here
+		clsFindCurrencyScreen::_ShowFindCurrencyScreen();
 	}
 
 	static void _ShowUpdateCurrencyRateScreen()
 	{
-		// Update Rare Screen Will be here
+		clsUpdateCurrencyRateScreen::ShowUpdateCurrencyRateScreen();
 	}
 
 	static void _ShowCurrencyCalculatorScreen()
@@ -100,7 +104,7 @@ public:
 	{
 
 		system("cls");
-		_DrawScreenHeader("\t\tCurrency Exhange Main Screen");
+		_DrawScreenHeader("\tCurrency Exhange Main Screen");
 
 		cout << setw(37) << left << "" << "===========================================\n";
 		cout << setw(37) << left << "" << "\t\t\tCurrency Exhange Menue\n";

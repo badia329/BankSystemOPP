@@ -128,6 +128,7 @@
     <ClCompile Include="clsAddNewUserrScreen.cpp" />
     <ClCompile Include="clsBankClient.cpp" />
     <ClCompile Include="clsClientListScreen.cpp" />
+    <ClCompile Include="clsCurrenciesListScreen.cpp" />
     <ClCompile Include="clsCurrency.cpp" />
     <ClCompile Include="clsCurrencyScreen.cpp" />
     <ClCompile Include="clsDate.cpp" />
@@ -135,6 +136,7 @@
     <ClCompile Include="clsDeleteUserScreen.cpp" />
     <ClCompile Include="clsDepositScreen.cpp" />
     <ClCompile Include="clsFindClientScreen.cpp" />
+    <ClCompile Include="clsFindCurrenctScreen.cpp" />
     <ClCompile Include="clsFindUserScreen.cpp" />
     <ClCompile Include="clsInputValidate.cpp" />
     <ClCompile Include="clsListUsersScreen.cpp" />
@@ -150,6 +152,7 @@
     <ClCompile Include="clsTransfer.cpp" />
     <ClCompile Include="clsTransfersLogScreen.cpp" />
     <ClCompile Include="clsUpdateClientScreen.cpp" />
+    <ClCompile Include="clsUpdateCurrencyRate.cpp" />
     <ClCompile Include="clsUpdateUserScreen.cpp" />
     <ClCompile Include="clsUser.cpp" />
     <ClCompile Include="clsUtil.cpp" />
@@ -161,6 +164,7 @@
     <ClInclude Include="clsAddNewUserrScreen.h" />
     <ClInclude Include="clsBankClient.h" />
     <ClInclude Include="clsClientListScreen.h" />
+    <ClInclude Include="clsCurrenciesListScreen.h" />
     <ClInclude Include="clsCurrency.h" />
     <ClInclude Include="clsCurrencyScreen.h" />
     <ClInclude Include="clsDate.h" />
@@ -168,6 +172,7 @@
     <ClInclude Include="clsDeleteUserScreen.h" />
     <ClInclude Include="clsDepositScreen.h" />
     <ClInclude Include="clsFindClientScreen.h" />
+    <ClInclude Include="clsFindCurrencyScreen.h" />
     <ClInclude Include="clsFindUserScreen.h" />
     <ClInclude Include="clsInputValidate.h" />
     <ClInclude Include="clsListUsersScreen.h" />
@@ -183,6 +188,7 @@
     <ClInclude Include="clsTransfer.h" />
     <ClInclude Include="clsTransfersLogScreen.h" />
     <ClInclude Include="clsUpdateClientScreen.h" />
+    <ClInclude Include="clsUpdateCurrencyRate.h" />
     <ClInclude Include="clsUpdateUserScreen.h" />
     <ClInclude Include="clsUser.h" />
     <ClInclude Include="clsUtil.h" />
