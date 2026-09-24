@@ -79,7 +79,7 @@ private:
 		}
 	}
 
-	 void _Update()
+	void _Update()
 	{
 		vector <clsCurrency> _vCurrencys;
 		_vCurrencys = _LoadCurrencysDataFromFile();
@@ -205,6 +205,21 @@ public:
 		return _LoadCurrencysDataFromFile();
 	}
 
+	float ConvertToUSD(float Amount)
+	{
+		return (float)(Amount / Rate());
+	}
+
+	float ConvertToOtherCurrency(float Amount, clsCurrency Currency)
+	{
+		float AmountInUSD = 0;
+		if (Currency.CurrencyCode() == "USD")
+		{
+			return AmountInUSD;
+		}
+
+		return (float)(AmountInUSD * Currency.Rate());
+	}
 
 };
 

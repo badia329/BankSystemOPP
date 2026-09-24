@@ -5,6 +5,7 @@
 #include "clsCurrenciesListScreen.h"
 #include "clsFindCurrencyScreen.h"
 #include "clsUpdateCurrencyRate.h"
+#include "clsCurrencyCalculatorScreen.h"
 
 class clsCurrencyScreen : protected clsScreen
 {
@@ -40,7 +41,7 @@ public:
 
 	static void _ShowCurrencyCalculatorScreen()
 	{
-		// Calculator Screen Will be here 
+		clsCurrencyCalculatorScreen::ShowCurrencyCalculatorScreen();
 	}
 
 	static void _GoBackToMainMenu()
@@ -78,7 +79,7 @@ public:
 
 		case enCurrencyMenueOption::eCurrencyCalculator:
 		{
-			_ShowCurrencyMenuScreen();
+			_ShowCurrencyCalculatorScreen();
 			_GoBackToCurrencyMenu();
 			break;
 		}
